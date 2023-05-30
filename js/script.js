@@ -1,4 +1,6 @@
 console.log("JSOK");
+//bonus
+const listBoardItmes = document.getElementById("list-board");
 //imposta le variabili e i const
 let result = "";
 const FizzBuzz = "FizzBuzz";
@@ -23,4 +25,6 @@ for (let i = 1; i <= 100; i++) {
     result = i;
   }
   console.log(result);
+  result = <li>$(result)</li>;
+  listBoardItmes.innerHTML += result;
 }
