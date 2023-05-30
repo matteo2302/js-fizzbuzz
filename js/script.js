@@ -25,6 +25,6 @@ for (let i = 1; i <= 100; i++) {
     result = i;
   }
   console.log(result);
-  result = <li>$(result)</li>;
+  result = `<li class="list-style">${result}</li>`;
   listBoardItmes.innerHTML += result;
 }
